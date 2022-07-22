@@ -5,7 +5,7 @@ from werkzeug.utils import secure_filename
 
 
 UPLOAD_FOLDER = 'C:\\Users\\uzoma\\OneDrive\\Desktop\\queenshub\\video-storing\\upload-video'
-ALLOWED_EXTENSIONS = {'mp4','mkv' ,'png'}
+ALLOWED_EXTENSIONS = {'mp4','mkv'}
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
